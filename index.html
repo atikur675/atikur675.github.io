@@ -2,83 +2,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Atikur Rahman | Digital Marketing Expert</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      background-color: #f9f9f9;
-      color: #333;
+<!-- Slider section -->
+<div class="slider">
+    <div class="slide fade">
+        <img src="path-to-header1.jpg" alt="Header Image 1">
+    </div>
+    <div class="slide fade">
+        <img src="path-to-header2.jpg" alt="Header Image 2">
+    </div>
+</div>
+
+<script>
+    let slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        let slides = document.getElementsByClassName("slide");
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";  
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}    
+        slides[slideIndex-1].style.display = "block";  
+        setTimeout(showSlides, 3000); // Change image every 3 seconds
     }
-    header {
-      background-color: #0073e6;
-      color: white;
-      padding: 2rem;
-      text-align: center;
-    }
-    section {
-      padding: 2rem;
-      max-width: 800px;
-      margin: auto;
-    }
-    h1, h2 {
-      color: #0073e6;
-    }
-    .contact a {
-      color: #0073e6;
-      text-decoration: none;
-    }
-    .portfolio {
-      margin-top: 1rem;
-    }
-    footer {
-      background-color: #0073e6;
-      color: white;
-      text-align: center;
-      padding: 1rem;
-      margin-top: 2rem;
-    }
-  </style>
+</script>
+
+    
 </head>
 <body>
   <header>
-    <h1>Atikur Rahman</h1>
-    <p>Digital Marketing Expert | Facebook & Instagram Ads Specialist</p>
-  </header>
-
-  <section>
+    <section class="about-me">
     <h2>About Me</h2>
-    <p>I am Atikur Rahman, a Digital Marketing Expert with over 8 years of experience specializing in Facebook and Instagram Ads Campaigns. I have worked with numerous clients on Fiverr and received excellent feedback for delivering quality ad services.</p>
-
-    <h2>Services</h2>
-    <ul>
-      <li>Facebook Ads Campaign Setup & Management</li>
-      <li>Instagram Ads Strategy & Execution</li>
-      <li>Audience Targeting & Optimization</li>
-      <li>Performance Tracking & Reporting</li>
-    </ul>
-
-    <h2>Portfolio</h2>
-    <p>Check out some of my previous work:</p>
-    <div class="portfolio">
-      <a href="https://drive.google.com/drive/folders/1sigQzjuvwDo6AOEX--bLWoLB4IYM_MJ1" target="_blank">View Portfolio</a>
+    <p>Hello, I am Atikur Rahman Khan. I am a professional Digital marketer. Specially my Highly skilled in Facebook Marketing, Facebook and Instagram ads campaigns, etc. I have completed a long time professional course on Digital marketing from ABCL Institute where I can learn many tricks and tips. You can choose me because I will deliver the perfect order at the right time. I know how to professionally Run your Facebook ads & Instagram ads campaign & grow your business, increase high quality traffic, more sales and leads. If you need any service feel free to contact me. Thank you.</p>
+</section>
+<section class="my-picture">
+    <h2>Meet Me</h2>
+    <img src="path-to-mypic.jpg" alt="My Picture">
+</section>
+<section class="social-media">
+    <a href="https://www.facebook.com/share/18jnw2dKc4/" target="_blank"><img src="path-to-facebook-icon.png" alt="Facebook"></a>
+    <a href="https://www.instagram.com/atikurrahman769" target="_blank"><img src="path-to-instagram-icon.png" alt="Instagram"></a>
+    <a href="https://www.linkedin.com/in/atikur-rahman-khan-4ab94a252" target="_blank"><img src="path-to-linkedin-icon.png" alt="LinkedIn"></a>
+    <a href="https://wa.me/+8801775704550" target="_blank"><img src="path-to-whatsapp-icon.png" alt="WhatsApp"></a>
+</section>
+<section class="reviews">
+    <h2>Client Reviews</h2>
+    <div class="review">
+        <p>"Atikur Rahman is a fantastic digital marketer. He helped my business grow with Facebook Ads!"</p>
+        <p>⭐⭐⭐⭐⭐</p>
     </div>
-
-    <h2>Contact</h2>
-    <div class="contact">
-      <p>Email: <a href="mailto:atikurrahmank675@gmail.com">atikurrahmank675@gmail.com</a></p>
-      <p>Phone / WhatsApp: <a href="tel:+8801775704550">+880 01775-704550</a></p>
-      <p>Facebook: <a href="https://www.facebook.com/atikurrahman.atikurrahman.14661261" target="_blank">Facebook Profile</a></p>
-      <p>Instagram: <a href="https://www.instagram.com/atikurrahman769" target="_blank">Instagram Profile</a></p>
-      <p>LinkedIn: <a href="https://www.linkedin.com/in/atikur-rahman-khan-4ab94a252" target="_blank">LinkedIn Profile</a></p>
+    <div class="review">
+        <p>"Amazing service, highly recommend for anyone looking to boost their sales!"</p>
+        <p>⭐⭐⭐⭐⭐</p>
     </div>
-  </section>
+</section>
+<section class="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+        <h3>Q: How long does it take to run a Facebook Ads campaign?</h3>
+        <p>A: It usually takes a few days to optimize your campaign for better results.</p>
+    </div>
+    <div class="faq-item">
+        <h3>Q: What do I need to provide for the campaign?</h3>
+        <p>A: You need to provide your product/service images, videos, and a link to your website.</p>
+    </div>
+</section>
+<section class="contact">
+    <h2>Contact Me</h2>
+    <p>If you need any service, feel free to contact me at:</p>
+    <p>Email: example@example.com</p>
+    <p>Phone: +880 1775704550</p>
+</section>
 
-  <footer>
-    <p>&copy; 2025 Atikur Rahman. All Rights Reserved.</p>
-  </footer>
 </body>
 </html>
